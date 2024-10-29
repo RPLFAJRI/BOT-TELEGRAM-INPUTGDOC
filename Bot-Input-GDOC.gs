@@ -1,10 +1,10 @@
 var scriptSet = PropertiesService.getScriptProperties();
 
 //HUBUNGKAN DENGAN TELEGRAM DAN GOOGLE SHEET
-var token = '7512137752:AAFN-sHGnFzSI8xCdbrteQPStLgovImsCp4'; // Isi dengan token bot Telegram 
-var sheetID = '1PW1M6FgHx-OOfiEb1rnjzrmo_yq_LbpOvjwE5DAw2Sk'; // Isi dengan SheetID Google Sheet
+var token = 'TOKEN'; // Isi dengan token bot Telegram 
+var sheetID = 'SHEETID'; // Isi dengan SheetID Google Sheet
 var sheetName = 'Sheet1'; // Isi dengan nama Sheet
-var webAppURL = 'https://script.google.com/macros/s/AKfycbyCgL0v646ccYXwb6Hd4x_NTBIhDA0CHUOUF9P6uS2qJS8OlhMleBuwlTCMo9tVD1GsMA/exec'; // Isi dengan Web URL Google Script setelah deploy
+var webAppURL = 'YOURSCRIPT'; // Isi dengan Web URL Google Script setelah deploy
 
 //SETTING DATA APA SAJA YANG AKAN DIINPUT
 var dataInput = /\/SITE_ID:\s*(.*)?\n\s*SITE_NAME:\s*(.*)?\n\s*METRO_HOSTNAME:\s*(.*)?\n\s*METRO_IP:\s*(.*)?\n\s*NE1_HOSTNAME:\s*(.*)?\n\s*NE1_IP:\s*(.*)?\n\s*FRAME:\s*(.*)?\n\s*SLOT:\s*(.*)?\n\s*PORT:\s*(.*)?\n\s*ONU:\s*(.*)?\n\s*IP_ONT:\s*(.*)?\n\s*IP_CEK:\s*(.*)?\n\s*STO:\s*(.*)?\n\s*CEK:\s*(.*)?\n\s*NAMA_FEEDER:\s*(.*)?\n\s*CORE_FEEDER:\s*(.*)?\n\s*NAMA_DISTRIBUSI:\s*(.*)?\n\s*CORE_DISTRIBUSI:\s*(.*)?\n\s*ODP:\s*(.*)?\n\s*TL:\s*(.*)?/gmi;
